@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import Windows from "./components/windows";
 import Link from "next/link";
 import Image from "next/image";
-import Loading from "./components/loading";
+import Loading from "./loading";
 
 export default function Home() {
   return (

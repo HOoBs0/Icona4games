@@ -1,4 +1,4 @@
-import Loading from "@/app/components/loading"
+import Loading from "./loading"
 import Image from "next/image"
 import { Suspense } from "react"
 
