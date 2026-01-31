@@ -1,8 +1,9 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f9f5ea;
+  --foreground: #f9f5ea;
 }
 
 @theme inline {
@@ -14,13 +15,31 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #f9f5ea;
+    --foreground: #f9f5ea;
   }
 }
 
 body {
+  direction: rtl;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.primary_bg{ background-color: #f9f5ea}
+.secondary_bg{ background-color: #f5e6cf}
+.primary_comp_bg{ background-color: #314d71}
+.secondary_comp_bg{ background-color: #f25b5a}
+.thirdly_comp_bg{ background-color: #f25a5a}
+.four_comp_bg{background-color: #2b8f63;}
+
+
+.red{ color: #f25b5a}
+
+
+.shadow_box{
+box-shadow: 3px 3px 0px 1px rgba(0,0,0,1);
+-webkit-box-shadow: 3px 3px 0px 1px rgba(0,0,0,1);
+-moz-box-shadow: 3px 3px 0px 1px rgba(0,0,0,1);
 }
