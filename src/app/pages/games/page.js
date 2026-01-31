@@ -1,6 +1,6 @@
-import Windows from "@/app/components/windows"
 import { Suspense } from "react"
-import Loading from "../../loading"
+import Windows from "@/app/components/windows"
+import Loading from "@/app/components/loading"
 export default function Games() {
     return (
         <div>
