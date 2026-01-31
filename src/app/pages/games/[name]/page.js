@@ -4,12 +4,10 @@ import { Suspense } from "react"
 
 async function getData(name) {
     const data = await fetch('https://hoobs0.github.io/games-json_file/db.json')
-    const game = await data.json().filter((i)=>{
-        return i.name == name
-    })
+    const game = await data.json()
     
 
-    return game
+    return game[0]
 }
 
 export async function generateMetadata({ params }) {
