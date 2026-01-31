@@ -2,7 +2,7 @@ export default async function sitemap() {
   const baseUrl = 'https://icona4games.vercel.app';
 
   // 1. جلب بيانات الألعاب من الرابط الخاص بك
-  const response = await fetch('https://hoobs0.github.io/games-json_file/db.json');
+  const response = await fetch('https://697e3ecb97386252a26a3f45.mockapi.io/db/games');
   const data = await response.json();
 
   // التأكد من الوصول للمصفوفة الصحيحة (حسب هيكلة ملف الـ JSON الخاص بك)
