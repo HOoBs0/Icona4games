@@ -3,7 +3,7 @@ import Image from "next/image"
 import { Suspense } from "react"
 
 async function getData(name) {
-    const data = await fetch('https://hoobs0.github.io/games-json_file/db.json')
+    const data = await fetch('https://697e3ecb97386252a26a3f45.mockapi.io/db/games?name' = name)
     const game = await data.json()
     
 
