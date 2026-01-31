@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 export default async function Windows() {
-    const data = await fetch('https://hoobs0.github.io/games-json_file/db.json')
+    const data = await fetch('https://697e3ecb97386252a26a3f45.mockapi.io/db/games')
     const games = await data.json()
     return (
         <div>
