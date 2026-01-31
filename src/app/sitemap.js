@@ -1,5 +1,5 @@
 export default async function sitemap() {
-  const baseUrl = 'http://localhost:3001';
+  const baseUrl = 'https://icona4games.vercel.app';
 
   // 1. جلب بيانات الألعاب من الرابط الخاص بك
   const response = await fetch('https://hoobs0.github.io/games-json_file/db.json');
