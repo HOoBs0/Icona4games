@@ -3,10 +3,13 @@ import Image from "next/image"
 import { Suspense } from "react"
 
 async function getData(name) {
-    const data = await fetch('https://hoobs0.github.io/games-json_file/db.json?name=' + name , { next: { revalidate: 0 } })
-    const game = await data.json()
+    const data = await fetch('https://hoobs0.github.io/games-json_file/db.json)
+    const game = await data.json().filter((i)=>{
+        return i.name == name
+    })
+    
 
-    return game[0]
+    return game
 }
 
 export async function generateMetadata({ params }) {
