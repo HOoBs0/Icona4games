@@ -19,7 +19,7 @@ export async function generateMetadata({ params }) {
         description: game.story,
         openGraph: {
             title: "تحميل لعبة " + game.name + "مجانًا " + "| موقع أيقونة",
-            description: game.story
+            description: game.story,
             applicationName:"تحميل لعبة " + game.name + "مجانًا " + "| موقع أيقونة"
         },
         applicationName:"تحميل لعبة " + game.name + "مجانًا " + "| موقع أيقونة"
