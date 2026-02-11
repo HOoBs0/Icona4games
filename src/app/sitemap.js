@@ -12,8 +12,8 @@ export default async function sitemap() {
   const gameEntries = games.map((game) => ({
     url: `${baseUrl}/pages/games/${game.name}`,
     lastModified: new Date().toISOString(),
-    changeFrequency: 'monthly',
-    priority: 0.8,
+    changeFrequency: 'daily',
+    priority: 1,
   }));
 
   // 3. تعريف الصفحات الثابتة (الرئيسية وغيرها)
@@ -27,14 +27,14 @@ export default async function sitemap() {
     {
       url: `${baseUrl}/pages/games`,
       lastModified: new Date().toISOString(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
+      changeFrequency: 'daily',
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/pages/copyRight`,
       lastModified: new Date().toISOString(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
+      changeFrequency: 'yearly',
+      priority: 0.8,
     },
   ];
 
