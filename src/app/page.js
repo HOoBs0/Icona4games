@@ -7,7 +7,7 @@ import Loading from "./loading";
 export default function Home() {
   return (
     <div>
-    
+    <script src="https://pl28798924.effectivegatecpm.com/8f/72/46/8f724637180d25fc2f2d58ee0e5df985.js"/>
     <script 
           dangerouslySetInnerHTML={{
             __html: `
