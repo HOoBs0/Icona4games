@@ -41,8 +41,8 @@ export default function RootLayout({ children }) {
       >
         <Navbar />
         <div className="p-6 md:p-12">
-            <script src="https://pl28798924.effectivegatecpm.com/8f/72/46/8f724637180d25fc2f2d58ee0e5df985.js"/>
-
+          <script src="https://pl28798924.effectivegatecpm.com/8f/72/46/8f724637180d25fc2f2d58ee0e5df985.js"/>
+          <script src="https://pl28799005.effectivegatecpm.com/49/6a/7e/496a7ec19ce170fa2b6336bc53d37fde.js"/>
           {children}
         </div>
 
