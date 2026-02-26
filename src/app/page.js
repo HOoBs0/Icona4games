@@ -6,27 +6,7 @@ import Loading from "./loading";
 
 export default function Home() {
   return (
-    <div>
-    <script src="https://pl28798924.effectivegatecpm.com/8f/72/46/8f724637180d25fc2f2d58ee0e5df985.js"/>
-    <script 
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(s,o,g,a,m){
-                <script>
-  atOptions = {
-    'key' : '4f063a82d277b0c129fea83b89543fb9',
-    'format' : 'iframe',
-    'height' : 90,
-    'width' : 728,
-    'params' : {}
-  };
-</script>
-<script src="https://www.highperformanceformat.com/4f063a82d277b0c129fea83b89543fb9/invoke.js"></script>
-                              })();
-            `
-          }} 
-        />
-          
+    <div>          
       <h1 className="text-black text-lg lg:text-2xl secondary_bg w-fit p-2 m-auto shadow_box">أفضل موقع لتحميل الإلعاب القديمة مجانًا.</h1>
       <div className="text-black text-2xl grid grid-cols-1  md:grid-cols-2 gap-12 items-center mt-12 mb-12">
 
