@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
     __html: JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name":"موقع ايقونة لتحميل الالعاب الكمبيوتر",
+      "name":"موقع أيقونة | لتحميل الإلعاب مجانًا",
       "url": "https://icona4games.vercel.app/"
     }),
   }}
